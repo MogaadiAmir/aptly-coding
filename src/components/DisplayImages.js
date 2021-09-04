@@ -9,7 +9,8 @@ const DisplayImages = ({ slides }) => {
     joke: "",
   });
 
-  //Get Random jokes
+  //Get Random jokes 
+  
   const fetchData = async () => {
     const result = await axios.get("https://api.icndb.com/jokes/random");
     setState({
