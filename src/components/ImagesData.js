@@ -6,7 +6,7 @@ import Img5 from './images/img5.jpg'
 
 export const ImagesData = [
 
-   {image:Img1},
+   {image:Img1} ,
    {image:Img2},
    {image:Img3},
    {image:Img4},
