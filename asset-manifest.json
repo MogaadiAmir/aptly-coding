@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/aptly-coding/static/css/main.ec993d81.chunk.css",
-    "main.js": "/aptly-coding/static/js/main.636f4442.chunk.js",
-    "main.js.map": "/aptly-coding/static/js/main.636f4442.chunk.js.map",
-    "runtime-main.js": "/aptly-coding/static/js/runtime-main.e0397bbd.js",
-    "runtime-main.js.map": "/aptly-coding/static/js/runtime-main.e0397bbd.js.map",
-    "static/js/2.40063aff.chunk.js": "/aptly-coding/static/js/2.40063aff.chunk.js",
-    "static/js/2.40063aff.chunk.js.map": "/aptly-coding/static/js/2.40063aff.chunk.js.map",
-    "static/js/3.565ca44e.chunk.js": "/aptly-coding/static/js/3.565ca44e.chunk.js",
-    "static/js/3.565ca44e.chunk.js.map": "/aptly-coding/static/js/3.565ca44e.chunk.js.map",
+    "main.js": "/aptly-coding/static/js/main.531f001a.chunk.js",
+    "main.js.map": "/aptly-coding/static/js/main.531f001a.chunk.js.map",
+    "runtime-main.js": "/aptly-coding/static/js/runtime-main.5d4abdc2.js",
+    "runtime-main.js.map": "/aptly-coding/static/js/runtime-main.5d4abdc2.js.map",
+    "static/js/2.a320a522.chunk.js": "/aptly-coding/static/js/2.a320a522.chunk.js",
+    "static/js/2.a320a522.chunk.js.map": "/aptly-coding/static/js/2.a320a522.chunk.js.map",
+    "static/js/3.4397b5de.chunk.js": "/aptly-coding/static/js/3.4397b5de.chunk.js",
+    "static/js/3.4397b5de.chunk.js.map": "/aptly-coding/static/js/3.4397b5de.chunk.js.map",
     "index.html": "/aptly-coding/index.html",
     "static/css/main.ec993d81.chunk.css.map": "/aptly-coding/static/css/main.ec993d81.chunk.css.map",
-    "static/js/2.40063aff.chunk.js.LICENSE.txt": "/aptly-coding/static/js/2.40063aff.chunk.js.LICENSE.txt",
+    "static/js/2.a320a522.chunk.js.LICENSE.txt": "/aptly-coding/static/js/2.a320a522.chunk.js.LICENSE.txt",
     "static/media/img1.b85e6542.jpg": "/aptly-coding/static/media/img1.b85e6542.jpg",
     "static/media/img2.784c2b30.jpg": "/aptly-coding/static/media/img2.784c2b30.jpg",
     "static/media/img3.b4b2af8c.jpg": "/aptly-coding/static/media/img3.b4b2af8c.jpg",
@@ -19,9 +19,9 @@
     "static/media/img5.329e30d9.jpg": "/aptly-coding/static/media/img5.329e30d9.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.e0397bbd.js",
-    "static/js/2.40063aff.chunk.js",
+    "static/js/runtime-main.5d4abdc2.js",
+    "static/js/2.a320a522.chunk.js",
     "static/css/main.ec993d81.chunk.css",
-    "static/js/main.636f4442.chunk.js"
+    "static/js/main.531f001a.chunk.js"
   ]
 }
