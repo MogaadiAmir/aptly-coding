@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/aptly-coding/static/css/main.ec993d81.chunk.css",
-    "main.js": "/aptly-coding/static/js/main.531f001a.chunk.js",
-    "main.js.map": "/aptly-coding/static/js/main.531f001a.chunk.js.map",
+    "main.js": "/aptly-coding/static/js/main.211efad6.chunk.js",
+    "main.js.map": "/aptly-coding/static/js/main.211efad6.chunk.js.map",
     "runtime-main.js": "/aptly-coding/static/js/runtime-main.5d4abdc2.js",
     "runtime-main.js.map": "/aptly-coding/static/js/runtime-main.5d4abdc2.js.map",
     "static/js/2.a320a522.chunk.js": "/aptly-coding/static/js/2.a320a522.chunk.js",
@@ -22,6 +22,6 @@
     "static/js/runtime-main.5d4abdc2.js",
     "static/js/2.a320a522.chunk.js",
     "static/css/main.ec993d81.chunk.css",
-    "static/js/main.531f001a.chunk.js"
+    "static/js/main.211efad6.chunk.js"
   ]
 }
