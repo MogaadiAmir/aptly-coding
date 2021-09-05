@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/aptly-coding/static/css/main.ec993d81.chunk.css",
-    "main.js": "/aptly-coding/static/js/main.7541ce86.chunk.js",
-    "main.js.map": "/aptly-coding/static/js/main.7541ce86.chunk.js.map",
+    "main.js": "/aptly-coding/static/js/main.cbad5674.chunk.js",
+    "main.js.map": "/aptly-coding/static/js/main.cbad5674.chunk.js.map",
     "runtime-main.js": "/aptly-coding/static/js/runtime-main.5d4abdc2.js",
     "runtime-main.js.map": "/aptly-coding/static/js/runtime-main.5d4abdc2.js.map",
-    "static/js/2.a1ca5505.chunk.js": "/aptly-coding/static/js/2.a1ca5505.chunk.js",
-    "static/js/2.a1ca5505.chunk.js.map": "/aptly-coding/static/js/2.a1ca5505.chunk.js.map",
+    "static/js/2.097e29b6.chunk.js": "/aptly-coding/static/js/2.097e29b6.chunk.js",
+    "static/js/2.097e29b6.chunk.js.map": "/aptly-coding/static/js/2.097e29b6.chunk.js.map",
     "static/js/3.4397b5de.chunk.js": "/aptly-coding/static/js/3.4397b5de.chunk.js",
     "static/js/3.4397b5de.chunk.js.map": "/aptly-coding/static/js/3.4397b5de.chunk.js.map",
     "index.html": "/aptly-coding/index.html",
     "static/css/main.ec993d81.chunk.css.map": "/aptly-coding/static/css/main.ec993d81.chunk.css.map",
-    "static/js/2.a1ca5505.chunk.js.LICENSE.txt": "/aptly-coding/static/js/2.a1ca5505.chunk.js.LICENSE.txt",
+    "static/js/2.097e29b6.chunk.js.LICENSE.txt": "/aptly-coding/static/js/2.097e29b6.chunk.js.LICENSE.txt",
     "static/media/img1.b85e6542.jpg": "/aptly-coding/static/media/img1.b85e6542.jpg",
     "static/media/img2.784c2b30.jpg": "/aptly-coding/static/media/img2.784c2b30.jpg",
     "static/media/img3.b4b2af8c.jpg": "/aptly-coding/static/media/img3.b4b2af8c.jpg",
@@ -20,8 +20,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.5d4abdc2.js",
-    "static/js/2.a1ca5505.chunk.js",
+    "static/js/2.097e29b6.chunk.js",
     "static/css/main.ec993d81.chunk.css",
-    "static/js/main.7541ce86.chunk.js"
+    "static/js/main.cbad5674.chunk.js"
   ]
 }
