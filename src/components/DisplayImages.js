@@ -44,13 +44,14 @@ const DisplayImages = ({ slides }) => {
     });
   };
 
-  const ClickedImage = () => {
-    ReactGA.event({
-      category: "Clicks",
-      action: "Click",
-      label: "Pic clicked!",
-    });
-  };
+  //create event on image
+  // const ClickedImage = () => {
+  //   ReactGA.event({
+  //     category: "Clicks",
+  //     action: "Click",
+  //     label: "Pic clicked!",
+  //   });
+  // };
 
   if (!Array.isArray(slides) || slides.length <= 0) {
     return null;
@@ -68,7 +69,7 @@ const DisplayImages = ({ slides }) => {
               key={index}
             >
                 {index === current && (
-                  <img src={slide.image} alt="chuck" className="image" onClick={ClickedImage}/>
+                  <img src={slide.image} alt="chuck" className="image" />
                 )}
             </div>
           );

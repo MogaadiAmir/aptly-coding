@@ -11,7 +11,6 @@ function App() {
     ReactGA.initialize("UA-206742245-1", { debug: true });
     // TO enable test failure
     // ReactGA.initialize("UA-206742245-1", { testMode: true })
-    console.log("test", ReactGA);
     //to report page view
     ReactGA.pageview("/");
   }, []);
