@@ -4,7 +4,9 @@ import ReactGA from "react-ga";
 import { ImagesData } from "./ImagesData";
 import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from "react-icons/fa";
 
+
 const DisplayImages = ({ slides }) => {
+  
   const [state, setState] = useState({
     joke: "",
   });
@@ -31,7 +33,7 @@ const DisplayImages = ({ slides }) => {
     setCurrent(current === 0 ? length - 1 : current - 1);
   };
 
-  // Click to get random jokes and trigger event
+  // Click to get random jokes and trigger
   const RandomSlide = () => {
     setCurrent(Math.floor(Math.random() * slides.length));
     fetchData();
@@ -39,6 +41,14 @@ const DisplayImages = ({ slides }) => {
       category: "Clicks",
       action: "Click",
       label: "Joke button clicked!",
+    });
+  };
+
+  const ClickedImage = () => {
+    ReactGA.event({
+      category: "Clicks",
+      action: "Click",
+      label: "Pic clicked!",
     });
   };
 
@@ -57,14 +67,9 @@ const DisplayImages = ({ slides }) => {
               className={index === current ? "slide active" : "slide"}
               key={index}
             >
-              <ReactGA.OutboundLink
-                eventLabel="Chuck pic"
-                target="_self"
-              >
                 {index === current && (
-                  <img src={slide.image} alt="chuck" className="image" />
+                  <img src={slide.image} alt="chuck" className="image" onClick={ClickedImage}/>
                 )}
-              </ReactGA.OutboundLink>
             </div>
           );
         })}
