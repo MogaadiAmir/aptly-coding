@@ -7,7 +7,7 @@ import { useEffect } from 'react';
 import ReactGA from 'react-ga';
 function App() {
   useEffect(()=>{
-    ReactGA.initialize("UA-206742245-1",{ testMode: true })
+    ReactGA.initialize("UA-206742245-1", { debug: true },{ testMode: true })
     console.log('test',ReactGA)
     //to report page view
     ReactGA.pageview(window.location.pathname + window.location.search)
