@@ -1,6 +1,6 @@
 # Task Chuck norris joke
 
-Web application display chuck photosand joke.
+Web application display chuck photos and jokes.
 
 ## Installation
 
