@@ -7,9 +7,10 @@ import { useEffect } from 'react';
 import ReactGA from 'react-ga';
 function App() {
   useEffect(()=>{
-    ReactGA.initialize('G-B4VZFC99YF')
+    ReactGA.initialize("G-B4VZFC99YF", { debug: true })
+    console.log('test',ReactGA)
     //to report page view
-    ReactGA.pageview(window.location.pathname + window.location.search);
+    ReactGA.pageview('/')
   },[])
   return (
     <div className="App">
