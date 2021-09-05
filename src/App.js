@@ -10,7 +10,7 @@ function App() {
     ReactGA.initialize("G-B4VZFC99YF", { debug: true })
     console.log('test',ReactGA)
     //to report page view
-    ReactGA.pageview('/')
+    ReactGA.pageview(window.location.pathname + window.location.search)
   },[])
   return (
     <div className="App">
