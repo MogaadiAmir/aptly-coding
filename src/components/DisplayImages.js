@@ -59,7 +59,6 @@ const DisplayImages = ({ slides }) => {
             >
               <ReactGA.OutboundLink
                 eventLabel="Chuck pic"
-                to="/"
                 target="_self"
               >
                 {index === current && (
