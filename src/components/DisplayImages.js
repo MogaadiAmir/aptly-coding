@@ -1,16 +1,15 @@
 import React, { useState } from "react";
+import axios from "axios";
+import ReactGA from "react-ga";
 import { ImagesData } from "./ImagesData";
 import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from "react-icons/fa";
-import axios from "axios";
 
 const DisplayImages = ({ slides }) => {
-
   const [state, setState] = useState({
     joke: "",
   });
 
-  //Get Random jokes 
-  
+  //Get Random jokes
   const fetchData = async () => {
     const result = await axios.get("https://api.icndb.com/jokes/random");
     setState({
@@ -32,10 +31,15 @@ const DisplayImages = ({ slides }) => {
     setCurrent(current === 0 ? length - 1 : current - 1);
   };
 
-  // Press to get random jokes
+  // Click to get random jokes and trigger event
   const RandomSlide = () => {
     setCurrent(Math.floor(Math.random() * slides.length));
     fetchData();
+    ReactGA.event({
+      category: "Clicks",
+      action: "Click",
+      label: "Joke button clicked!",
+    });
   };
 
   if (!Array.isArray(slides) || slides.length <= 0) {
@@ -53,19 +57,25 @@ const DisplayImages = ({ slides }) => {
               className={index === current ? "slide active" : "slide"}
               key={index}
             >
-              {index === current && (
-                <img src={slide.image} alt="chuck" className="image" />
-              )}
+              <ReactGA.OutboundLink
+                eventLabel="Chuck pic"
+                to="/"
+                target="_self"
+              >
+                {index === current && (
+                  <img src={slide.image} alt="chuck" className="image" />
+                )}
+              </ReactGA.OutboundLink>
             </div>
           );
         })}
       </div>
-        <div>
-          <p className="title">{state.joke}</p>
-          <button className="btn btn-primary" onClick={RandomSlide}>
-            Press to get random joke
-          </button>
-        </div>
+      <div>
+        <p className="title">{state.joke}</p>
+        <button className="btn btn-primary" onClick={RandomSlide}>
+          Press to get random joke
+        </button>
+      </div>
     </section>
   );
 };
